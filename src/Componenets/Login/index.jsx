@@ -8,7 +8,7 @@ const Login = () => {
         mail: "",
         password: "",
     });
-    const { register,onChange , formState: { errors }, handleSubmit } = useForm();
+    const { register, formState: { errors }, handleSubmit } = useForm();
 
     const HandleInputChange = (e) => {
         setUser({

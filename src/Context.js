@@ -5,9 +5,7 @@ export const AppContext = createContext();
 export const AppContextProvider = ({ children }) => {
    const [isAuth,setIsAuth] = useState(false)
   useEffect(()=>{
-    const user = JSON. parse(localStorage.getItem('user'));
-    console.log(user)
-
+    const user = JSON.parse(localStorage.getItem('user'));
     if(user){
         setIsAuth(user.isAuth)
     }
