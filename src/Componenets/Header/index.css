@@ -1,0 +1,49 @@
+header{
+    background-color: #fff;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+
+}
+
+
+.header--logo{
+    font-weight: bold;
+}
+
+.header--authencation{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.header--link{
+    color:#000;
+    margin-right: 1rem;
+}
+.header--btn{
+    border: none;
+    outline: none;
+    padding: 10px 1rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home_button{  
+   /* color: var(--primary--color);
+    background-color: #fff;*/
+
+}
+
+.active_link{
+    color: var(--primary--color);
+    font-weight: bold;
+}
+
+.login_button{
+    background-color: var(--primary--color);
+    color: #fff;
+}
